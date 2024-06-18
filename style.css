@@ -1,0 +1,1194 @@
+body{
+    width: 120rem;
+    margin: 0rem;
+}
+
+.nav-bar{
+    background: #87DE87;
+    height: 6.313rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (min-width:641px) {
+    .topnav {
+        display: none !important;
+    }
+    }
+
+.logo{
+    margin-right: auto;
+    margin-left: 7rem;
+}
+
+.nav-bar ul{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    color: #333333;
+    margin-right: 7rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+
+}
+
+li{
+    list-style: none;
+    margin: 1rem;
+}
+
+.get-it-now{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.windmills{
+    background: url(pics/windmills.png);
+    box-shadow: inset 0px 0px 24px rgba(0, 0, 0, 0.25);
+    width: 120rem;
+    height: 40rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.windmills-text-area{
+    width: 39.188rem;
+    height: 14.25rem;
+    margin-left: 12.25rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: row-reverse;
+}
+
+.windmills-hero-text{
+    width: 37.188rem;
+    height: 14.25rem;
+    background: #333333;
+}
+
+.windmills-gap-hero{
+    width: 2rem;
+    height: 14.25rem;
+
+    background: #87DE87;
+
+    display: flex;
+}
+
+.windmills-hero-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-left: 2rem;
+
+    color: #FEFEFE;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.windmills-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    margin-left: 2rem;
+    width: 34.5rem;
+    margin-top: -1.5rem;
+
+    color: #FEFEFE;
+}
+
+.section-title-cards{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+
+    color: #333333;
+
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.card-world{
+    background: #333333;
+    width: 34.5rem;
+    height: 21.75rem;
+    margin-left: 6rem;
+
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.icon-world{
+    height: 7.5rem;
+    width: 7.473rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+    background: #87DE87;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title-world{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+
+    color: #FEFEFE;
+}
+
+.card-subtitle-world{
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+    margin-left: 2rem;
+
+    color: #FEFEFE;
+}
+
+.card-text-world{
+    Width: 30.375rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    margin-left: 2rem;
+    
+    color: #FEFEFE;
+
+    display: flex;
+    justify-content: center;
+}
+
+.card-solar{
+    background: #333333;
+    width: 34.5rem;
+    height: 21.75rem;
+
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.icon-solar{
+    height: 7.5rem;
+    width: 7.473rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+    background: #87DE87;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title-solar{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+
+    color: #FEFEFE;
+}
+
+.card-subtitle-solar{
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+    margin-left: 2rem;
+
+    color: #FEFEFE;
+}
+
+.card-text-solar{
+    Width: 30.375rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    margin-left: 2rem;
+    
+    color: #FEFEFE;
+
+    display: flex;
+    justify-content: center;
+}
+
+.card-wind{
+    background: #333333;
+    width: 34.5rem;
+    height: 21.75rem;
+    margin-right: 6rem;
+
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.icon-wind{
+    height: 7.5rem;
+    width: 7.473rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+    background: #87DE87;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title-wind{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+
+    color: #FEFEFE;
+}
+
+.card-subtitle-wind{
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+    margin-left: 2rem;
+
+    color: #FEFEFE;
+}
+
+.card-text-wind{
+    Width: 30.375rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    margin-left: 2rem;
+    
+    color: #FEFEFE;
+
+    display: flex;
+    justify-content: center;
+}
+
+.section-subsections{
+    background: #333333;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    width: 120rem;
+    height: 99.313rem;
+    margin-top: 6rem;
+}
+
+.section-subsections-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+
+    color: #FEFEFE;
+
+    display: flex;
+    justify-content: center;
+}
+
+.subsection-text-windmill{
+    width: 43.5rem;
+    height: 27.188rem;
+    margin-left: 15rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.subsection-title-windmill{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    margin-bottom: 1rem;
+
+    color: #FEFEFE;
+}
+
+.text-windmill{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    margin-top: 0rem;
+
+    color: #FEFEFE;
+}
+
+.subsection-image-windmill{
+    width: 43.5rem;
+    height: 30rem;
+    margin-left: 69.75rem;
+    margin-top: -25rem;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.subsection-image-windmill-img{
+    background: url(pics/windmill.png);
+    width: 41.5rem;
+    height: 30rem;
+}
+
+.subsection-image-windmill-rect{
+    background: #87DE87;
+    width: 2rem;
+    height: 30rem;
+}
+
+.subsection-image-solar{
+    width: 43.5rem;
+    height: 30rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.subsection-image-solar-img{
+    background: url(pics/sub-solar.png);
+    width: 41.5rem;
+    height: 30rem;
+}
+
+.subsection-image-solar-rect{
+    background: #87DE87;
+    width: 2rem;
+    height: 30rem;
+}
+
+.subsection-text-solar{
+    width: 43.5rem;
+    height: 27.188rem;
+    margin-top: -31rem;
+    margin-left: 60.75rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.subsection-title-solar{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    margin-bottom: 1rem;
+
+    color: #FEFEFE;
+}
+
+.text-solar{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    margin-top: 0rem;
+
+    color: #FEFEFE;
+}
+
+.section-subsections-button{
+    margin-top: 7.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.section-subsections-button-learn-more{
+    background: #87DE87;
+    border-radius: 0.75rem;
+    width: 16.5rem;
+    height: 4.5rem;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.section-contact-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    margin-top: 5rem;   
+    margin-bottom: 1rem;
+    color: #333333;
+}
+
+.section-contact-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: center;
+    margin: auto;
+
+    width: 52.5rem;
+    height: 3.852rem;
+    
+    color: #333333;
+
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+input{
+    background: #FEFEFE;
+    border: 1px solid #FEFEFE;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 0.75rem;
+
+    width: 43.5rem;
+    height: 4rem;
+
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    text-align: left;
+    
+    color: rgba(51, 51, 51, 0.7); 
+}
+
+.section-contact-button{
+    background: #87DE87;
+    border-radius: 12px;
+    width: 7.5rem;
+    height: 3rem;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333333;
+
+    margin-left: -8rem;
+}
+
+footer{
+    width: 120rem;
+    height: 29.5rem;
+    margin-top: 6rem;
+}
+
+.footer-about{
+    display: flex;
+    background: #87DE87;
+    width: 120rem;
+    height: 26.5rem;
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo{
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+}
+
+.footer-company-name{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    
+    color: #333333;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    margin-left: -17.5rem;
+    margin-top: 5rem;
+}
+
+.footer-company-name-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-bottom: -1rem;
+
+    color: #333333;
+}
+
+.footer-products{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    
+    color: #333333;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    margin-left: 12rem;
+}
+
+.footer-products-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    margin-bottom: -1rem;
+    
+    color: #333333;
+}
+
+.footer-company{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    
+    color: #333333;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    margin-left: 18rem;
+}
+
+.footer-company-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    margin-bottom: -1rem;
+
+    color: #333333;
+}
+
+.footer-socialmedia{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    
+    color: #333333;
+
+    margin-left: 20rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: baseline;
+}
+
+.footer-socialmedia-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    margin-bottom: -3rem;
+
+    color: #333333;
+}
+
+.footer-socialmedia-icons{
+    margin-left: -6rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-self: baseline;
+}
+
+.fb-icon{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+
+    background: #333333;
+
+    margin: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tw-icon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+
+    background: #333333;
+
+    margin: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-icon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+
+    background: #333333;
+
+    margin: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yt-icon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+
+    background: #333333;
+
+    margin: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-f{
+    height: 3rem;
+    width: 120rem;
+    background: #333333;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer-f-links a{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    
+    color: #FEFEFE;
+}
+
+.pandoo-c{
+    margin-left: 5rem;
+}
+
+.gdpr{
+    margin-left: 88rem;
+    margin-right: 2rem;
+}
+
+.privacy{
+    margin-right: 5rem;
+}
+
+.section-slider-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    margin-top: 5rem;
+
+    color: #333333;
+}
+
+.glide__slides{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.glide__slide-img1{
+    margin-left: 0rem;
+}
+
+.glide__slide-img2{
+    margin: 0.5rem;
+}
+
+.glide__slide-img3{
+    margin: 0.5rem;
+}
+
+.glide__slide-img4{
+    margin: 0.5rem;
+}
+
+.glide__slide-img5{
+    margin-right: 0rem;
+}
+
+
+/* mobile */
+@media screen and (max-width: 380px) {
+    .nav-bar{
+        display: none;
+    }
+
+    .windmills{
+        width: 375px;
+        height: 463px;
+        background-image: url(pics/windmills-mobile.png);
+    }
+
+    .windmills-text-area{
+        margin-left: 0rem;
+        margin-top: 43.2rem;
+    }
+
+    .windmills-hero-text{
+        width: 375px;
+        height: 236px;
+    }
+
+    .windmills-hero-title{
+        font-size: 2.25rem;
+        line-height: 2.625rem;
+        justify-self: center;
+    }
+
+    .windmills-text{
+        font-size: 1rem;
+        line-height: 1.188rem;
+        width: 312px;
+        height: 114px;
+    }
+
+    .windmills-gap-hero{
+        position: absolute;
+        width: 49.23px;
+        height: 375px;
+        margin-left: 0rem;
+        margin-top: 17.4rem;
+        transform: rotate(-90deg);
+    }
+
+    .section-title-cards{
+        font-size: 2.25rem;
+        line-height: 2.625rem;
+        margin-top: 20rem;
+        margin-bottom: 0rem;
+        margin-left: -96.5rem;
+    }
+
+    .cards{
+        flex-direction: column;      
+        flex-wrap: wrap;
+        margin-left: -96.5rem;
+    }
+
+    .card-world, .card-wind, .card-solar{
+        height: 458px;
+        width: 312px;  
+        margin: auto;
+        margin-top: 5rem;
+
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .card-world-title-subtitle-area, .card-solar-title-subtitle-area, .card-wind-title-subtitle-area{
+        justify-content: flex-start;
+        text-align: center;
+
+    }
+
+    .icon-world, .icon-solar, .icon-wind{
+        margin-top: -3.5rem;
+        align-self: flex-start;
+    }
+
+    .card-title-world, .card-title-solar, .card-title-wind{
+        text-align: center;
+        margin-top: 0rem;
+    }
+
+    .card-text-world, .card-text-solar, .card-text-wind{
+        width: 280px;
+        margin: auto;
+        margin-top: 0rem;
+    }
+
+    .section-subsections{
+        height: 2722px;
+        width: 375px;
+
+        flex-direction: column;      
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+    }
+
+    .section-subsections-title{
+        font-size: 2.25rem;
+        line-height: 2.625;
+        margin-bottom: -1rem;
+    }
+
+    .subsection-image-windmill{
+        width: 375px;
+        height: 376px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        margin: auto;
+        order: 1;
+        margin-top: -82rem;
+        margin-bottom: 0rem;
+    }
+
+    .subsection-image-windmill-rect{
+        width: 375px;
+        height: 16px;
+    }
+
+    .subsection-title-windmill{
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+
+        margin: auto;
+        text-align: center;
+    }
+
+    .subsection-text-windmill{
+        width: 312px;
+        height: 856px;
+        font-size: 1.125rem;
+        line-height: 1.313rem;
+        margin: auto;
+        order: 2;
+        margin-top: 30rem;
+    }
+
+    .text-windmill{
+        margin: auto;
+    }
+
+    .subsection-title-solar{
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .subsection-text-solar{
+        width: 312px;
+        height: 856px;
+        font-size: 1.125rem;
+        line-height: 1.313rem;
+        margin: auto;
+    }
+
+    .text-solar{
+        margin: auto;
+    }
+
+    .subsection-image-solar{
+        width: 375px;
+        height: 376px;
+        flex-direction: column;
+
+        margin-top: 58rem;
+        margin-left: auto;
+    }
+
+    .subsection-image-solar-rect{
+        width: 375px;
+        height: 16px;
+    }
+
+    .section-subsections-button{
+       display:none;
+    }
+
+    .section-slider-title{
+        font-size: 36px;
+        line-height: 42px;
+        margin: auto;
+        margin-left: -97rem;
+        margin-top: 1rem;
+    }
+
+    .glide__slide-img1, .glide__slide-img2, .glide__slide-img3, .glide__slide-img4, .glide__slide-img5{
+        width: 312px;
+        height: 321px;
+        align-items: center;
+        margin-left: -101rem;
+    }
+
+    .glide__arrows{
+        display: none;
+    }
+
+    .section-contact-title{
+        font-size: 36px;
+        line-height: 42px;
+        margin: auto;
+        margin-left: -96.5rem;
+        text-align: center
+        ma;
+    }
+
+    .section-contact-text{
+        font-size: 1rem;
+        line-height: 1.188rem;
+        width: 312px;
+        height: 95px;
+        margin: auto;
+        text-align: center;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    form{
+        width: 18rem;
+        margin-left: 2.5rem;
+        margin-top: 0rem;
+        margin-bottom: -3rem;
+    }
+
+    .input{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .section-contact-button{
+        border-radius: 0px 12px 12px 0px;
+        width: 102px;
+        font-weight: bold;
+        font-size: 1.125rem;
+        line-height: 1.313rem;
+        margin-left: -4rem;
+    }
+
+    .footer-about{
+        width: 375px;
+        height: 835px;
+        flex-direction: column;
+    }
+
+    .footer-logo{
+        align-items: flex-start;
+        margin-top: 0rem;
+    }
+
+    .footer-links{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -5rem;
+    }
+
+    .footer-company-name{
+        margin-left: -1.5rem;
+        text-align: center;
+    }
+
+    .footer-products{
+        margin-left: -1.5rem;
+        text-align: center;
+    }
+
+    .footer-company{
+        margin: -1.5rem;
+        text-align: center;
+    }
+
+    .footer-socialmedia{
+        margin: auto;
+        text-align: center;
+        margin-top: -5rem;
+    }
+
+    .footer-f{
+        width: 375px;
+        height: 86px;
+    }
+
+    .pandoo-c{
+        justify-self: center;
+    }
+
+    .gdpr{
+        margin: auto;
+    }
+
+    .privacy{
+        margin: auto;
+    }
+
+    .topnav {
+        width: 375px;
+        overflow: hidden;
+        background-color: #FFFFFF;
+        position: relative;
+
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+
+        color: #000000;
+      }
+    
+      .topnav #myLinks {
+        display: none;
+      }
+
+      .get-it-now-topnav{
+        background: #87DE87;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+        height: 1.5rem;
+        width: 10rem;
+        margin-top: 15rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      .topnav a {
+        color: #333333;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.063rem;
+        display: block;
+        margin-left: 2rem;
+      }
+      
+      .topnav a.icon {
+        background: #FFFFFF;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 0.75rem;
+        margin-right: 2rem;
+      }
+      
+      .topnav-nav {
+        background-color: #87DE87;
+        color: white;
+      }
+
+      .topnav-logo{
+          margin-left: 2rem;
+      }
+}
